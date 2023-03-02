@@ -1,0 +1,11 @@
+body{
+    justify-content: flex-end;
+    background-color: forestgreen;
+    color: greenyellow;
+}
+.paragrafo {
+    color: palegreen;
+}
+h2 {
+    color: orangered;
+}
