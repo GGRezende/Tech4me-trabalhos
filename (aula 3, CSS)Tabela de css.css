@@ -1,0 +1,26 @@
+div {
+    padding-top: 200px;
+    padding-left: 500px;
+}
+
+.categoria{
+    background-color: royalblue;
+}
+.titulo{
+    color: white;
+    background-color: blue;
+}
+
+.posicao{
+    background-color: grey;
+}
+
+.cidade{
+    color: mediumblue;
+    background-color: lightblue;
+}
+
+.pop{
+    color: mediumblue;
+    background-color: lightblue;
+}
