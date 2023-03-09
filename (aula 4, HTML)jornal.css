@@ -1,0 +1,31 @@
+#manchete {
+    background-color: aquamarine;
+}
+
+.manchete1 {
+    display: flex;
+    justify-content: center;
+    margin-left: 385px;
+    margin-right: 385px;
+    border-radius: 12px 15px 15px 15px;
+    background-image: linear-gradient(red, rgb(255, 81, 0), orange,rgb(255, 81, 0), red);
+}
+
+.manchete2 {
+    display: flex;
+    justify-content: center;
+    margin-left: 515px;
+    margin-right: 515px;
+    border-radius: 12px 15px 15px 15px;
+    background-image: linear-gradient(red, rgb(255, 81, 0), orange,rgb(255, 81, 0), red);
+}
+
+em {
+    color: white;
+    background-color: red;
+}
+
+strong {
+    color: goldenrod;
+    background-color: blue;
+}
