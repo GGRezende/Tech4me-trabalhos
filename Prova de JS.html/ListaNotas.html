@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista Notas</title>
+</head>
+<body>
+    <script>
+        function somatorio() {
+            var alunos = [
+            {
+                aluno1: "Alan",
+                nota1_1: 3.9,
+                nota2_1: 5.5
+            },
+            {
+                aluno2: "Bryan",
+                nota1_2: 3.5,
+                nota2_2: 5.7
+            },
+            {
+                aluno3: "Crystal",
+                nota1_3: 2.9,
+                nota2_3: 4.3
+            },
+            {
+                aluno4: "Douglas",
+                nota1_4: 3.1,
+                nota2_4: 5.0
+            },
+            {
+                aluno5: "Ester",
+                nota1_5: 3.2,
+                nota2_5: 3.7
+            }
+            ]
+
+            do {
+                var notaAluno1 = nota1_1 + nota2_1;
+                var notaAluno2 = nota1_2 + nota2_2;
+                var notaAluno3 = nota1_3 + nota2_3;
+                var notaAluno4 = nota1_4 + nota2_4;
+                var notaAluno5 = nota1_5 + nota2_5;                  
+
+
+            } while ("") {
+                alert(aluno1 + " tirou uma nota de " + notaAluno1);
+                alert(aluno2 + " tirou uma nota de " + notaAluno2);
+                alert(aluno3 + " tirou uma nota de " + notaAluno3);
+                alert(aluno4 + " tirou uma nota de " + notaAluno4);
+                alert(aluno5 + " tirou uma nota de " + notaAluno5);     
+            }
+
+            if (notaAluno1 > notaAluno2 || notaAluno1 > notaAluno3 || notaAluno1 > notaAluno4 || notaAluno1 > notaAluno5) {
+                alert("A nota maior é do " + aluno1 + " com nota total de " + notaAluno1)
+            } else if (notaAluno2 > notaAluno1 || notaAluno2 > notaAluno3 || notaAluno2 > notaAluno4 || notaAluno2 > notaAluno5) {
+                alert("A nota maior é do " + aluno2 + " com nota total de " + notaAluno2)
+            } else if (notaAluno3 > notaAluno1 || notaAluno3 > notaAluno2 || notaAluno3 > notaAluno4 || notaAluno3 > notaAluno5) {
+                alert("A nota maior é do " + aluno3 + " com nota total de " + notaAluno3)
+            } else if (notaAluno4 > notaAluno1 || notaAluno4 > notaAluno2 || notaAluno4 > notaAluno3 || notaAluno4 > notaAluno5) {
+                alert("A nota maior é do " + aluno4 + " com nota total de " + notaAluno4)
+            } else if (notaAluno5 > notaAluno1 || notaAluno5 > notaAluno2 || notaAluno5 > notaAluno3 || notaAluno5 > notaAluno4) {
+                alert("A nota maior é do " + aluno5 + " com nota total de " + notaAluno5)
+            } else
+
+            if (notaAluno1 < 7.0) {
+                alert(aluno1 + " teve uma nota abaixo da média")
+            } else if (notaAluno2 < 7.0) {
+                alert(aluno2 + " teve uma nota abaixo da média")
+            } else if (notaAluno3 < 7.0) {
+                alert(aluno3 + " teve uma nota abaixo da média")
+            } else if (notaAluno4 < 7.0) {
+                alert(aluno4 + " teve uma nota abaixo da média")
+            } else if (notaAluno5 < 7.0) {
+                alert(aluno5 + " teve uma nota abaixo da média")
+            } else 
+
+            console.log(alunos);
+
+        }
+
+        somatorio()
+    </script>
+</body>
+</html>

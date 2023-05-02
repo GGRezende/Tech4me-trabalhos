@@ -1,0 +1,53 @@
+1.
+1.Fazendo a chamada  OK
+
+O professor irá fazer a chamada e armazenar os nomes dos presentes em uma variável texto. Após o último nome ser 
+digitado, a relação de alunos será impressa no console, separando cada aluno com vírgula. Faça duas versões do 
+programa, com while e do..while. O programa termina quando a entrada for vazia.
+
+
+2.Totem de autoatendimento da lanchonete  OK
+
+O totem da lanchonete irá solicitar o nome do sanduíche. Depois disso, o cliente pode digitar até cinco 
+acompanhamentos por R$ 2,00 cada. Ao final será exibido o pedido completo e o valor a pagar. Se o cliente 
+digitar “concluir”, o programa não pede mais acompanhamentos.
+
+
+3.Fazendo a chamada com arrays  OK
+
+O professor irá fazer a chamada e armazenar cada nome em uma posição do array de alunos. O programa irá ler os 
+nomes do console, e ao receber um valor vazio, a entrada termina.
+
+
+4.Saldo na conta corrente  OK
+
+A agência bancária possui duas listas: Clientes e valor do saldo em conta corrente. O operador do caixa vai 
+perguntar o nome do cliente e o sistema irá informar o saldo da sua conta. O nome digitado não diferencia 
+maiúsculas e minúsculas. O valor é ponto flutuante. A lista deve possuir saldos zerados e negativos.
+
+
+5.Sistema de notas escolares  OK
+
+A escola de programação precisa corrigir a avaliação de 5 alunos. As avaliações são objetos e a média de cada um 
+deve ser calculada em uma função. Cada objeto tem propriedades nome, módulo, nota_4 e nota_6. O programa exibe, 
+para cada aluno, se foi “aprovado” ou “reprovado”.
+
+
+6.Notas escolares em lista  OK
+
+A escola de programação aumentou a correção de avaliações, permitindo lançar todas as notas da turma no sistema. 
+O sistema deverá exibir: a) um relatório de notas; b) O aluno com a maior nota; c) A quantidade de alunos abaixo 
+da média 7.0.
+
+
+Resumindo as entregas:
+
+A entrega deve conter:
+
+Link da pasta no Google Drive, com 6 arquivos:
+Professor.js  OK
+Totem.js  OK
+Chamada.js  OK
+Saldo.js  OK
+Notas.js  OK
+ListaNotas.js  OK

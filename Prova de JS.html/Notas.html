@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas</title>
+</head>
+<body>
+    <script>
+        var aluno1 = {
+            aluno: "Alanna",
+            modulo: 3,
+            nota_4: 3.8,
+            nota_6: 5.7
+        };
+        var aluno2 = {
+            aluno: "Ben",
+            modulo: 3,
+            nota_4: 3.5,
+            nota_6: 5.1
+        };
+        var aluno3 = {
+            aluno: "Cristina",
+            modulo: 3,
+            nota_4: 3.7,
+            nota_6: 5.0
+        };
+        var aluno4 = {
+            aluno: "Danilo",
+            modulo: 3,
+            nota_4: 3.7,
+            nota_6: 3.0
+        };
+        var aluno5 = {
+            aluno: "Ester",
+            modulo: 3,
+            nota_4: 2.8,
+            nota_6: 5.5
+        };
+
+        function somatorio() {
+            var notaAluno1 = 3.8 + 5.7;
+            var notaAluno2 = 3.5 + 5.1;
+            var notaAluno3 = 3.7 + 5.0;
+            var notaAluno4 = 3.7 + 3.0;
+            var notaAluno5 = 2.8 + 5.5;
+
+            alert("As notas dos alunos foram: Alanna com " + notaAluno1 + ", Ben com " + notaAluno2 + ", Cristina com " + notaAluno3 + ", Danilo com " + notaAluno4 + " e Ester com " + notaAluno5)
+            alert("A aluna Alanna teve a maior nota com " + notaAluno1);
+            alert("1 aluno ficou com nota abaixo da média.");
+
+            alert("Aluna Alanna você foi aprovada nesse módulo");
+            alert("Aluno Ben você foi aprovado nesse módulo");
+            alert("Aluna Cristina você foi aprovada nesse módulo");
+            alert("Aluno Danilo você foi desaprovada nesse módulo");
+            alert("Aluna Ester você foi aprovada nesse módulo");
+        }
+
+        somatorio()
+    </script>
+</body>
+</html>
