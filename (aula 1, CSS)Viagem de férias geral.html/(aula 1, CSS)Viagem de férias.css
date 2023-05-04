@@ -1,0 +1,21 @@
+body {
+    color: darkblue;
+}
+
+img {
+    color: magenta;
+    padding: 9px;
+    border-style: double;
+}
+
+h3 {
+    color: aqua;
+}
+
+h4 {
+    color: purple;
+}
+
+figcaption {
+    color: darkcyan;
+}
